@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 5, 2021 12:11:19 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Pojo.Users" table="users" catalog="messageapplication" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <property name="userName" type="string">
+            <column name="UserName" not-null="true" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="FirstName" not-null="true" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="LastName" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="Password" not-null="true" />
+        </property>
+        <property name="profileImage" type="binary">
+            <column name="profileImage" not-null="true" />
+        </property>
+        <set name="messagesForToWho" table="message" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="to_who" not-null="true" />
+            </key>
+            <one-to-many class="Pojo.Message" />
+        </set>
+        <set name="messagesForFromWho" table="message" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="from_who" not-null="true" />
+            </key>
+            <one-to-many class="Pojo.Message" />
+        </set>
+    </class>
+</hibernate-mapping>

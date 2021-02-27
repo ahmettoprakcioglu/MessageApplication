@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 9:37:34 PM
+    Author     : AHMET
+*/
+
+/*
+    siyah : #000000
+    emerald-yeşil :#2ecc71
+*/
+.profileBorder{
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #7f8c8d;
+}
+.bottomline{
+     -fx-border-width: 0 0 1 0;
+    -fx-border-color: #7f8c8d;
+}
+.rightline{
+     -fx-border-width: 0 1 0 0;
+    -fx-border-color: #7f8c8d;
+}
+.toptline{
+     -fx-border-width: 1 0 0 0;
+    -fx-border-color: #7f8c8d;
+}
+.FonBackground{
+    -fx-background-color: #FFFFFF;
+}
+.avatar .decoration{
+    -fx-fill: transparent;
+    
+}
+.profileBackground {
+    -fx-background-image:url(../Image/Background/black-wallpaper-43.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+     
+}
+.buttonsHover:hover{
+    -fx-background-color: #E9E9E9;
+}
+
+.messageBox{
+    -fx-background-color: #E9E9E9;
+}
+.messageText{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #7f8c8d;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+   
+}
+.searchText{
+    -fx-border-color: #7f8c8d;
+    -fx-border-radius: 50%;
+}
+
+.buttonsHoverMessageLeft:hover{
+    -fx-background-color: #E9E9E9;
+     -fx-background-radius: 5 0 0 5;
+}
+.buttonsHoverMessageRight:hover{
+    -fx-background-color: #E9E9E9;
+     -fx-background-radius: 0 5 5 0;
+}
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .increment-button .increment-arrow{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .increment-button{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .decrement-button .decrement-arrow{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .thumb{
+    -fx-background-color: #C1C1C1;
+    -fx-background-insets: 0 4 0 4;
+       
+}
+.countMessage{
+    -fx-background-color: #3498db;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 100%;
+}
+.Selected{
+    -fx-background-color: #DDDDDD;
+    -fx-border-color: #2ecc71;
+    -fx-border-width: 0 0 0 5;
+}
+.NoSelected{
+    -fx-border-color: #c5c2c2;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-insets: 0 8 0 8;
+}
+.NoSelected:hover{
+    -fx-background-color: #E9E9E9;
+}
+.inboxStyle{
+    -fx-background-color: #DDDDDD;
+    -fx-text-fill: #535252;
+    -fx-background-radius: 20 20 20 0;
+}
+.SendingStyle{
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 20 20 0 20;
+}
+.buttonStyle{
+    -fx-background-color: #2ecc71;
+    -fx-background-radius: 40;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14;     
+}
+.buttonStyle:hover{
+    -fx-background-color: transparent;
+    -fx-border-color: #2ecc71;
+    -fx-border-width: 1;
+    -fx-text-fill: #2ecc71; 
+    -fx-border-radius: 40;
+}
+  

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER_LEFT" spacing="15.0" type="HBox" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Avatar fx:id="incomedMAvatar" radius="22.0">
+         <image>
+            <Image url="@../Image/Profile_Image/pp1.jpg" />
+         </image>
+      </Avatar>
+      <Label fx:id="incomedMText" styleClass="inboxStyle" text="Label" textFill="#535252" wrapText="true">
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER_LEFT" minWidth="80.0">
+         <children>
+            <Label fx:id="incomedMTime" text="23:35" textFill="#a4a4a4">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</fx:root>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root id="AnchorPane" prefHeight="800.0" prefWidth="300.0" stylesheets="@../CSS/Style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="35.0" layoutY="225.0" prefHeight="575.0" prefWidth="300.0" styleClass="profileBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="225.0">
+         <children>
+            <VBox layoutX="100.0" layoutY="105.0" style="-fx-alignment: center;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+               <children>
+                  <Label fx:id="profileFName" alignment="CENTER" prefWidth="300.0" text="Ahmet Kaan Toprakçıoğlu" textFill="#b8b8b8" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="300.0" text="Ankara/Çankaya" textFill="#b8b8b8" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="300.0" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+      <VBox prefHeight="280.0" prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="60.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <StackPane prefHeight="60.0" prefWidth="60.0" styleClass="buttonsHover">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Image/Icons/email.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </StackPane>
+                        <StackPane prefHeight="60.0" prefWidth="60.0" styleClass="buttonsHover">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Image/Icons/love.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </StackPane>
+                        <StackPane prefHeight="60.0" prefWidth="60.0" styleClass="buttonsHover">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Image/Icons/user.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </StackPane>
+                        <StackPane prefHeight="60.0" prefWidth="60.0" styleClass="buttonsHover">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Image/Icons/settings.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </StackPane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="220.0" prefWidth="300.0">
+               <children>
+                  <Avatar fx:id="profileImage" layoutX="100.0" layoutY="163.0" radius="60.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                     <image>
+                        <Image url="@../Image/Profile_Image/pp2.jpg" />
+                     </image></Avatar>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</fx:root>

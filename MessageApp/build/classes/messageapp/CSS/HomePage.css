@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 3, 2021, 8:30:22 PM
+    Author     : AHMET
+*/
+
+.backHPage{
+    -fx-background-color: #FFFFFF;
+}
+.rightPart{
+    -fx-background-color: #2ecc71;
+    
+}
+.textandPassArea{
+    -fx-background-color: transparent;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 0 0 1 0;
+}
+.buttonLogin{
+    -fx-background-color: #2ecc71;
+    -fx-border-color: transparent;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-text-fill: #FFFFFF;
+}
+.buttonLogin:hover{
+    -fx-background-color: transparent;
+    -fx-border-color: #2ecc71;
+    -fx-border-width: 1;
+    -fx-text-fill: #2ecc71;
+}
+.registerLabel{
+    -fx-text-fill: #7f8c8d;
+}
+.registerLabel:hover{
+    -fx-text-fill: #2ecc71;
+    -fx-underline: true;
+
+}
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .increment-button .increment-arrow{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .increment-button{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .decrement-button .decrement-arrow{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .thumb{
+    -fx-background-color: #C1C1C1;
+    -fx-background-insets: 0 4 0 4;
+       
+}
+.avatar .decoration{
+    -fx-fill: transparent;
+    
+}
